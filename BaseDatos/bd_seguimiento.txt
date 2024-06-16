@@ -1,0 +1,27 @@
+CREATE TABLE estudiantes
+(
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nombre VARCHAR(50),
+    apellidos VARCHAR(50),
+    email VARCHAR(255),
+    fechaNacimiento DATE
+);
+
+INSERT INTO estudiantes (nombre, apellidos, email, fechaNacimiento) VALUES
+('Pedro', 'Hernandez', 'pedrohernandez@mail.com', '2001-03-14'),
+('Laura', 'Sanchez', 'laurasanchez@mail.com', '2002-11-18'),
+('Diego', 'Ramirez', 'diegoramirez@mail.com', '2000-06-24'),
+('Sofia', 'Torres', 'sofiatorres@mail.com', '2001-09-12'),
+('Javier', 'Flores', 'javierflores@mail.com', '2003-01-15'),
+('Natalia', 'Gomez', 'nataliagomez@mail.com', '2002-04-27'),
+('Miguel', 'Diaz', 'migueldiaz@mail.com', '2001-02-02'),
+('Daniela', 'Fernandez', 'danielafernandez@mail.com', '2000-05-30'),
+('Antonio', 'Ruiz', 'antonioruiz@mail.com', '2003-07-21'),
+('Gabriela', 'Morales', 'gabrielamorales@mail.com', '2001-08-19'),
+('Andres', 'Ortega', 'andresortega@mail.com', '2002-02-26'),
+('Elena', 'Castillo', 'elenacastillo@mail.com', '2000-11-05'),
+('Fernando', 'Ortiz', 'fernandoortiz@mail.com', '2001-10-10'),
+('Paula', 'Ramos', 'paularamos@mail.com', '2003-03-22'),
+('Ricardo', 'Alvarez', 'ricardoalvarez@mail.com', '2002-12-17');
+
+SELECT * FROM estudiantes;
